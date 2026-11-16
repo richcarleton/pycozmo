@@ -1,0 +1,11 @@
+# core (pycozmo itself comes from the parent clone: pip install -e ..)
+flask
+numpy
+pillow
+# speech out through Cozmo's speaker
+pyttsx3
+# optional: voice commands from the PC mic
+vosk
+sounddevice
+# optional: cat detection (heavy - pulls in PyTorch)
+ultralytics
